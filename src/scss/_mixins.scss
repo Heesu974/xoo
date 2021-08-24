@@ -1,0 +1,8 @@
+@mixin sexyTitle($word) {
+    
+    @if $word == "first" {
+        color: white;
+    } @else if $word == "rest" {
+        color:  black !important;
+    }
+}
